@@ -1,0 +1,53 @@
+{
+  "name": "toyi/force-https",
+  "description": "A force https",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "force",
+    "https"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Anthony Aslangul",
+      "email": "anthony.aslangul@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "~5.8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.8.0",
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Toyi\\ForceHttps\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Toyi\\ForceHttps\\Tests\\": "tests"
+    },
+    "files": [
+      "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Toyi\\ForceHttps\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
