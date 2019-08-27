@@ -31,6 +31,7 @@ php artisan vendor:publish --provider="Toyi\ForceHttps\ServiceProvider" --tag="c
 ## Usage
 
 Add the `Toyi\ForceHttps\ForceHttps::class` middleware in the web middleware group.
+The `FORCE_HTTPS` boolean env variable can be used to activate or deactivate redirections.
 
 ## Security
 
