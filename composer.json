@@ -1,6 +1,6 @@
 {
   "name": "toyi/force-https",
-  "description": "A force https",
+  "description": "Force Https middleware for Laravel apps",
   "license": "MIT",
   "keywords": [
     "laravel",
